@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Question1",
+        "a": "Option a",
+        "b": "Option b",
+        "c": "Option c",
+        "d": "Option d",
+        "answer": "d"
+    },
+    {
+        "question": "Question2",
+        "a": "Option a",
+        "b": "Option b",
+        "c": "Option c",
+        "d": "Option d",
+        "answer": "a"
+    },
+    {
+        "question": "Question3",
+        "a": "Option a",
+        "b": "Option b",
+        "c": "Option c",
+        "d": "Option d",
+        "answer": "c"
+    }
+]
