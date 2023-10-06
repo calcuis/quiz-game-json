@@ -39,6 +39,10 @@ def main():
         user_answer = get_user_answer()
         user_answers.append(user_answer)
 
+        # Provide instant feedback
+        if user_answer != question['answer']:
+            print('Sorry! The correct answer should be', question['answer'])
+
     # Evaluate the quiz and display the score
     score = evaluate_quiz(questions, user_answers)
     print(f'\nYour score: {score}/{len(questions)}')
